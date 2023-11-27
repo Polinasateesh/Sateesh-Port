@@ -1,0 +1,83 @@
+HOME PAGE: 
+
+- Turning Vision Into Reality With Code And Design. 
+- As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
+Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+
+--------------------------------------------------------------
+
+
+
+--------------------------------------------------------------
+
+EXPERIENCE: 
+
+Software Engineer @Google
+2022-Present | Mountain View, CA
+Worked on a team responsible for developing new features for Google's 
+search engine, including improving the accuracy and relevance of search results and 
+developing new tools for data analysis and visualization.
+
+Intern @Facebook
+Summer 2021 | Menlo Park, CA.
+Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
+share short-form video content, including designing and implementing a new user interface and developing 
+the backend infrastructure to support the feature.
+
+Software Developer @Amazon
+2020-2021 | Seattle, WA.
+Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
+as product recommendations and user reviews, and optimizing the app's performance and reliability.
+
+Software Developer Intern @Microsoft
+Summer 2019 | Redmond, WA.
+Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
+including implementing a new user interface for a system settings panel and optimizing the performance of 
+a core system component.
+
+Teaching Assistant @MIT
+Fall 2018 | Massachusetts Ave, Cambridge, MA.
+Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
+and graded exams and assignments.
+
+
+--------------------------------------------------------------
+
+EDUCATION:
+
+Bachelor Of Science In Computer Science
+2016-2020 | Massachusetts Institute Of Technology (MIT)
+Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
+Intelligence.
+
+Master Of Computer Science
+2020-2022 | Stanford University
+Completed a master's project on deep learning, developing a new neural network architecture for natural 
+language understanding.
+
+Online Coursework
+2016-2020 | Coursera And EdX
+Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
+Learning Engineering.
+
+--------------------------------------------------------------
+
+PROJECTS PAGE:
+
+- Imagination Trumps Knowledge!
+
+Crypto Screener Application
+A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+local currency.
+
+React Portfolio Website
+A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
+page transitions, cool background effects, unique design and it is mobile responsive.
+
+--------------------------------------------------------------
+
+
+
+
+
