@@ -109,6 +109,21 @@ const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
+                title="Fully Automated System Test [FAST]"
+                summary="• Developed the FAST Tool based on clients' requirements, resulting in a 30% increase in test 
+                case efficiency.
+                • Conducted testing of enhancements, achieving a 20% improvement in overall tool performance.
+                • Created reports for client submission with 100% accuracy and on-time delivery.
+                • Resolved 80% of the reported issues, ensuring a smooth and error-free user experience.
+                • Technologies used: React JS, TypeScript, Ant Design."
+                link="/"
+                img={FAST}
+                type="Project-2"
+                github="/"
+              />
+            </div>
+            {/* <div className="col-span-12">
+              <FeaturedProject
                 title="Food Munch"
                 summary="• Developed the FAST Tool based on clients' requirements, resulting in a 30% increase in test 
                 case efficiency.
@@ -121,7 +136,7 @@ const projects = () => {
                 type="Project-3"
                 github="/"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
