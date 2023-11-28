@@ -5,9 +5,8 @@ import AnimatedText from '@/Components/AnimatedText';
 import Link from 'next/link';
 import Image from 'next/image';
 import { GithubIcon } from '@/Components/Icons';
-import BMT from '../../public/images/projects/bmt_project.jpg.png';
-import FAST from '../../public/images/projects/FAST_project.png';
-import FoodMunch from '../../public/images/projects/foodmunch_project.png';
+import BMT from '../../public/images/projects/bmt_project.jpg.jpg';
+import FAST from '../../public/images/projects/FAST_project.jpg';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/Components/TransitionEffect';
 
@@ -77,7 +76,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Projects Page </title>
+        <title>Sateesh | Projects Page </title>
         <meta name="description" content="" />
       </Head>
       <TransitionEffect />
@@ -122,21 +121,6 @@ const projects = () => {
                 github="/"
               />
             </div>
-            {/* <div className="col-span-12">
-              <FeaturedProject
-                title="Food Munch"
-                summary="• Developed the FAST Tool based on clients' requirements, resulting in a 30% increase in test 
-                case efficiency.
-                • Conducted testing of enhancements, achieving a 20% improvement in overall tool performance.
-                • Created reports for client submission with 100% accuracy and on-time delivery.
-                • Resolved 80% of the reported issues, ensuring a smooth and error-free user experience.
-                • Technologies used: React JS, TypeScript, Ant Design."
-                link="/"
-                img={FoodMunch}
-                type="Project-3"
-                github="/"
-              />
-            </div> */}
           </div>
         </Layout>
       </main>
