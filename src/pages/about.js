@@ -3,7 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import Layout from '@/Components/Layout';
 import Image from 'next/image';
-import MyProfile1 from '../../public/images/profile/MyProfile1.jpeg';
+import MyProfile1 from '../../public/images/profile/profiewithsuite.jpg';
 import MyProfile2 from '../../public/images/profile/MyProfile2.png';
 import Skills from '@/Components/Skills';
 import Education from '@/Components/Education';
@@ -25,29 +25,29 @@ const about = () => {
           />
           <div className="grid w-full grid-cols-6 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start md:order-2 md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+              <h2 className="mb-2 text-sm font-bold uppercase text-dark/75 dark:text-light/75">
                 About Me
               </h2>
-              <p className="font-medium">
+              <p className="font-small">
               Greetings! I am Sateesh Polina, a passionate and results-driven full-stack developer with a keen eye for detail and a commitment to delivering high-quality software solutions. With a solid background in both front-end and back-end technologies, I bring a holistic approach to web development.
               </p>
-              <h2 className="mb-4 mt-3 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+              <h2 className="mb-2 mt-2 text-sm font-bold uppercase text-dark/75 dark:text-light/75">
               Technical Proficiency
               </h2>
-              <p className="font-medium">
-              I thrive in creating seamless, user-friendly interfaces using cutting-edge front-end technologies such as React.js and Vue.js. My expertise extends to crafting robust back-end systems with Node.js and Python, ensuring the functionality, security, and scalability of web applications. I am well-versed in database management, utilizing SQL and NoSQL databases like MongoDB to optimize data storage and retrieval.
+              <p className="font-small">
+              I thrive in creating seamless, user-friendly interfaces using cutting-edge front-end technologies such as React.js. My expertise extends to crafting robust back-end systems with Node.js, ensuring the functionality, security, and scalability of web applications. I am well-versed in database management, utilizing SQL and NoSQL databases like MongoDB to optimize data storage and retrieval.
               </p>
-              <h2 className="mb-4 mt-3 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+              <h2 className="mb-2 mt-2 text-sm font-bold uppercase text-dark/75 dark:text-light/75">
               Problem Solver and Innovator
               </h2>
-              <p className="font-medium">
+              <p className="font-small">
               I am passionate about solving complex problems through innovative and efficient coding practices. My experience in developing and maintaining RESTful APIs, microservices, and serverless architectures empowers me to build scalable solutions that stand the test of time.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light md:order-1 md:col-span-8 ">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
-                src={MyProfile2}
+                src={MyProfile1}
                 alt=""
                 className="w-full h-auto rounded-2xl"
                 priority
