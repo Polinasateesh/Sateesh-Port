@@ -38,7 +38,7 @@ const Experience = () => {
             {details.map((eachDetail,index)=>(
               <li
                 ref={ref}
-                className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+                className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]"
                 key={index}
               >
                 <LiIcon reference={ref} />
@@ -48,11 +48,11 @@ const Experience = () => {
                   whileInView={{ y: 0 }}
                   transition={{ duration: 0.5, type: 'spring' }}
                 >
-                  <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">Company : {eachDetail.companyName}</h3>
+                  <h3 className="capitalize font-bold text-2xl mb-2 sm:text-xl xs:text-lg">Company : {eachDetail.companyName}</h3>
                   <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
-                   Date of Joining : {eachDetail.Date}   </span>
-                  <p className="w-full font-medium md:text-sm">Role : {eachDetail.role}</p>
-                  <p className="w-full font-medium md:text-sm">Employeement Type : {eachDetail.type}</p>
+                   Date of Joining : {eachDetail.Date}   </span><br/>
+                  <span className="w-full font-medium md:text-sm">Role : {eachDetail.role}</span><br/>
+                  <span className="w-full font-medium md:text-sm">Employeement Type : {eachDetail.type}</span><br/>
                   <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
                    place :  {eachDetail.place} </span>
                 </motion.div>
